@@ -1,1 +1,8 @@
 # tonejsexperiment
+
+```
+yarn
+
+yarn vite
+
+```
