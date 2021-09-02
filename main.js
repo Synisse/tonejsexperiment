@@ -3,7 +3,7 @@ import './style.css'
 import * as Tone from 'tone';
 import { setupExampleSong } from './songs/examplesmix';
 import { setupMainMelodyInstrument } from './instruments/melody';
-import { setupBlastSpeedNoiseInstrument } from './instruments/blastNoise';
+import { setupBlastSpeedNoiseInstrument } from './instruments/blastnoise2';
 import { setupSnareInstrument } from './instruments/snare';
 
 Tone.Transport.bpm.value = 160;
