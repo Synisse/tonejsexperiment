@@ -24,8 +24,6 @@ export function setupBlastSpeedNoiseInstrument(aBlastSpeedParams, blastSpeedInst
 
         // bass kick
         bassKick.triggerAttackRelease('B1', aBlastNoteSpeed, time);
-        // snare
-        // snareSound.triggerAttackRelease(aBlastNoteSpeed, time);
 
         // setup blast speed
       }, aBlastNoteSpeed)

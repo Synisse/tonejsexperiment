@@ -58,7 +58,6 @@ export function setupSnareInstrument(aSnareSpeed, aSnareTriChance) {
             if(currentNormalNotes < normalNotes) {
                 // only play [0x0x0x0x]
                 if(currentNormalNotes % 2) {
-                    console.log('playing note');
                     snareSound.triggerAttackRelease('4n', time);
                 }
             }
@@ -67,7 +66,6 @@ export function setupSnareInstrument(aSnareSpeed, aSnareTriChance) {
                 // snareSound.triggerAttackRelease('4n', time);
                 currentNormalNotes = 0;
                 triMode = Math.random() < aSnareTriChance
-                console.log('trimode?: ', triMode);
             }
 
             currentNormalNotes++;
